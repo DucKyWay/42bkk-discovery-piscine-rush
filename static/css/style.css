@@ -80,26 +80,40 @@ nav.navbar {
 
 .skill {
     padding-top: 10vh;
+    position: relative;
+    text-align: center;
+  
 }
-
-.skill img {
-    width: 400px;
-    height: 350px;
-    object-fit: cover;
+.container{
+    text-align: center;
+}
+.img_skill{
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 1em;
+    max-width: 450px;
     display: block;
+    padding-left: 5vh;
 }
-
-.skill img_skill {
-    width: 400px;
-    height: 350px;
-    object-fit: cover;
-    display: block;
+h5 {
+    display: inline-block;
+  
 }
-
-.skill .desc {
-    display: block;
+.box{
+    display: inline-block;
+    text-align: center;
 }
-
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .progress {
+    height: 20px;
+    background-color: #4CAF50;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+  }
 .contact {
 
 }
