@@ -7,35 +7,16 @@
 }
 
 * {
-    font-family: 'Chakra Petch', 'minecrafter', sans-serif;;
+    font-family: 'Chakra Petch';
     src: url("/static/webfonts/Chakra_Petch/ChakraPetch-Regular.ttf");
 }
 
 html{
 	scroll-behavior: smooth;
 }
-body { 
-	position: relative;
-}
-
-span, p {
-    font-family: 'Chakra_Petch';
-}
 
 nav.navbar {
 	background-color: #fffb9e;
-}
-
-.navbar {
-
-}
-
-.navbar .navbar_logo {
-
-}
-
-.navbar .navbar_main {
-
 }
 
 #jumbotron {
@@ -47,7 +28,7 @@ nav.navbar {
     font-size: 4vw;
 }
 
-#jumbotron p{
+#jumbotron h5{
     text-align: center;
 }
 
@@ -89,8 +70,12 @@ nav.navbar {
     font-weight: normal;
 }
 
-.text h1 {
+.intro h1 {
     font-size: 4vw;
+}
+
+.intro h3 {
+    padding-bottom: 1em;
 }
 
 .skill {
