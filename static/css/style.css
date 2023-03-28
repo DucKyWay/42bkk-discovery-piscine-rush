@@ -79,15 +79,25 @@ nav.navbar {
 }
 
 .skill {
-
+    padding-top: 10vh;
 }
 
 .skill img {
-
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
 }
 
-.skill .desc_skill {
-    
+.skill img_skill {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.skill .desc {
+    display: block;
 }
 
 .contact {
