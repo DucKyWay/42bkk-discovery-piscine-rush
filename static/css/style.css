@@ -3,11 +3,18 @@
 * {
     font-family: "Chakra_Petch", "minecrafter", "sans-serif";
     src: url("/static/fonts/Chakra_Petch/ChakraPetch-Regular.ttf") format("opentype");
-    src: url("/static/fonts/minecrafter/Minecrafter.Reg.ttf") format("opentype");
+    /* src: url("/static/fonts/minecrafter/Minecrafter.Reg.ttf") format("opentype"); */
+}
+
+html{
+	scroll-behavior: smooth;
+}
+body { 
+	position: relative;
 }
 
 nav.navbar {
-	background-color: #1A1849;
+	background-color: #fffb9e;
 }
 
 .navbar {
@@ -20,6 +27,19 @@ nav.navbar {
 
 .navbar .navbar_main {
 
+}
+
+#jumbotron {
+    margin-top: 1em;
+}
+
+#jumbotron h1{
+    text-align: center;
+    font-size: 4vw;
+}
+
+#jumbotron p{
+    text-align: center;
 }
 
 #web {
@@ -42,7 +62,7 @@ nav.navbar {
 
 }
 
-.skill .img_skill {
+.skill img {
 
 }
 
@@ -77,4 +97,10 @@ nav.navbar {
 
 .image-container:hover .overlay {
 	opacity: 0.3;
+}
+
+.cover {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
 }
