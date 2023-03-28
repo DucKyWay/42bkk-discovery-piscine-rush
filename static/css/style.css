@@ -1,9 +1,14 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'Chakra Petch', 'minecrafter', sans-serif;;
+    src: url("/static/webfonts/Chakra_Petch/ChakraPetch-Regular.ttf");
+    src: url("/static/webfonts/minecrafter/Minecrafter.Reg.ttf");
+}
+
 * {
-    font-family: "Chakra_Petch", "minecrafter", "sans-serif";
-    src: url("/static/fonts/Chakra_Petch/ChakraPetch-Regular.ttf") format("opentype");
-    /* src: url("/static/fonts/minecrafter/Minecrafter.Reg.ttf") format("opentype"); */
+    font-family: 'Chakra Petch', 'minecrafter', sans-serif;;
+    src: url("/static/webfonts/Chakra_Petch/ChakraPetch-Regular.ttf");
 }
 
 html{
@@ -11,6 +16,10 @@ html{
 }
 body { 
 	position: relative;
+}
+
+span, p {
+    font-family: 'Chakra_Petch';
 }
 
 nav.navbar {
@@ -42,20 +51,46 @@ nav.navbar {
     text-align: center;
 }
 
-#web {
-
+.intro {
+    display: flex;
 }
 
-#niji {
-
+.intro .profile {
+    display: inline;
+    margin-top: 10vh;
 }
 
-#manus {
-
+.intro img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
 }
 
-.intro .image{
+.intro .text {
+    display: inline;
+    padding-left: 3em;
+    padding-top: 3em;
+    font-family: "Chakra_Petch";
+    margin-top: 10vh;
+}
 
+.intro .info {
+    display: block;
+    padding-top: 2em;
+}
+
+.intro .title {
+    display: block;
+    font-weight: bolder;
+}
+
+.intro .desc {
+    display: inline-block;
+    font-weight: normal;
+}
+
+.text h1 {
+    font-size: 4vw;
 }
 
 .skill {
