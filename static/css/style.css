@@ -2,11 +2,11 @@
 
 }
 
-.logo {
+.navbar .navbar_logo {
 
 }
 
-.main {
+.navbar .navbar_main {
 
 }
 
@@ -22,7 +22,7 @@
 
 }
 
-.intro {
+.intro .image{
 
 }
 
@@ -30,6 +30,22 @@
 
 }
 
-.contact {
+.skill .img_skill {
+
+}
+
+.skill .desc_skill {
     
+}
+
+.contact {
+
+}
+
+.contact .box_contact {
+
+}
+
+.contact .text {
+
 }
