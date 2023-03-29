@@ -10,7 +10,9 @@
     font-family: 'Chakra Petch';
     src: url("/static/webfonts/Chakra_Petch/ChakraPetch-Regular.ttf");
 }
-
+.img-fluid{
+    width: 100%;
+}
 html{
 	scroll-behavior: smooth;
 }
@@ -34,21 +36,23 @@ nav.navbar {
 
 .intro {
     display: flex;
+    display: inline-block;
 }
 
 .intro .profile {
-    display: inline;
     margin-top: 10vh;
+    display: inline-block;
 }
 
 .intro img{
     width: 400px;
     height: 600px;
     object-fit: cover;
+    display: inline-block;
 }
 
 .intro .text {
-    display: inline;
+    display: inline-block;
     padding-left: 3em;
     padding-top: 3em;
     font-family: "Chakra_Petch";
@@ -56,22 +60,22 @@ nav.navbar {
 }
 
 .intro .info {
-    display: block;
+ 
     padding-top: 2em;
 }
 
 .intro .title {
-    display: block;
+    
     font-weight: bolder;
 }
 
 .intro .desc {
-    display: inline-block;
+    
     font-weight: normal;
 }
 
 .intro h1 {
-    font-size: 4vw;
+    font-size: 56px;
 }
 
 .intro h3 {
@@ -89,13 +93,18 @@ nav.navbar {
 }
 
 .skill .img_skill{
+    width: 450px;
+    height: 250px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
-    max-width: 450px;
+    max-width: 400px;
+    max-height: 300px;
     display: block;
     padding-left: 3vh;
     padding-right: 3vh;
+    object-fit: cover;
+
 }
 
 .skill h5 {
@@ -164,4 +173,7 @@ nav.navbar {
     width: 100%;
     height: 90vh;
     object-fit: cover;
+}
+#footer{
+    margin-top: 24vh;
 }
