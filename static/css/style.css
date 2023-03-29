@@ -84,7 +84,7 @@ nav.navbar {
     text-align: center;
   
 }
-.skill .container{
+.skill h2{
     text-align: center;
 }
 
@@ -97,11 +97,13 @@ nav.navbar {
     padding-left: 3vh;
     padding-right: 3vh;
 }
+
 .skill h5 {
     display: inline-block;
     text-align: center;
-  
+    margin-top: 0.5em;
 }
+
 .skill .box{
     display: inline-block;
     text-align: center;
@@ -119,7 +121,12 @@ nav.navbar {
 }
 
 .contact {
+    padding-top: 10vh;
+    text-align: center;
+}
 
+.contact h2{
+    text-align: center;
 }
 
 .contact .box_contact {
