@@ -94,10 +94,10 @@ nav.navbar {
 
 .skill .img_skill{
     width: 450px;
-    height: 250px;
+    height: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1em;
+    margin-top: 0px;
     max-width: 450px;
     max-height: 300px;
     display: block;
@@ -108,13 +108,13 @@ nav.navbar {
 }
 
 .skill h5 {
-    display: inline-block;
+    display: block;
     text-align: center;
     margin-top: 0.5em;
 }
 
 .skill p {
-    display: inline-block;
+    display: block;
     text-align: center;
 }
 
