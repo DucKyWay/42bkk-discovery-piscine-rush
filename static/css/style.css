@@ -98,7 +98,7 @@ nav.navbar {
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
-    max-width: 400px;
+    max-width: 450px;
     max-height: 300px;
     display: block;
     padding-left: 3vh;
@@ -111,6 +111,11 @@ nav.navbar {
     display: inline-block;
     text-align: center;
     margin-top: 0.5em;
+}
+
+.skill p {
+    display: inline-block;
+    text-align: center;
 }
 
 .skill .box{
