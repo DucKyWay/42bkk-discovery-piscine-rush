@@ -130,12 +130,13 @@ nav.navbar {
     margin-bottom: 1em;
 }
 
-.contact .row {
-    margin: 1em;
+.contact .input-group {
+    padding-bottom: 1em;
 }
 
 .contact .title {
     text-align: right;
+    margin-right: 6em;
 }
 
 .contact .input {
