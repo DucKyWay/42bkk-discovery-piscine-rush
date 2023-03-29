@@ -21,6 +21,17 @@ nav.navbar {
 	background-color: #fffb9e;
 }
 
+#web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#web title{
+    margin-top: 1em;
+}
+
 #jumbotron {
     margin-top: 1em;
 }
