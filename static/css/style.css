@@ -129,12 +129,16 @@ nav.navbar {
     text-align: center;
 }
 
-.contact .box_contact {
-
+.contact .row {
+    margin: 1em;
 }
 
-.contact .text {
+.contact .title {
+    text-align: right;
+}
 
+.contact .input {
+    
 }
 
 .overlay {
