@@ -17,24 +17,85 @@
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
 
     <title>Resume</title>
-</head>
-<body>
-    <nav class="navbar fixed-top navbar-light navbar-expand-lg">
-		<div class="container"><a class="navbar-brand" href="#"><img class="navbar-brand" width="30px" height="px" src="./static/image/42_Logo.png">Resume</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a class="navbar-nav nav-link navbar-light nav-link.active" href="./niji.html">Niji&nbsp;</a> </li>
-					<li class="nav-item"> <a class="navbar-nav nav-link navbar-light nav-link.active" href="./manus.html">Manus</a> </li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <style>
+        * {
+    font-family: 'Chakra Petch';
+    src: url("/static/webfonts/Chakra_Petch/ChakraPetch-Regular.ttf");
+        }
+.container {
+  position: relative;
+  width: 100%;
+  display:inline-block;
+  margin-right:10vh;
+}
 
-    <div id="web">
-        <div class="title">
-            <h1><b>Welcome!</b></h1>
-            <h5>This website is our resume!</h5>
-        </div>
-    </div>
+.image {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  border-radius:500px;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: pink;
+  border-radius:500px;
+  margin-left: 461px;
+  margin-top: 20px;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+    display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body bgcolor="#fffb9e">
+
+<h2 style="text-align: center;">Portfoilo</h2>
+
+<div class="container">
+    <a href="niji.html">
+  <img src="static/image/niji-profile.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Niji</div>
+  </div>
+</a>
 </div>
+
+<div class="container">
+    <a href="manus.html">
+  <img src="static/image/manus-profile.jpg" alt="Avatar" class="image manus">
+  <div class="overlay">
+    <div class="text">Manus</div>
+  </div>
+</a>
+</div>
+</body>
+</html>
