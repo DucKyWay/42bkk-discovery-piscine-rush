@@ -84,36 +84,40 @@ nav.navbar {
     text-align: center;
   
 }
-.container{
+.skill .container{
     text-align: center;
 }
-.img_skill{
-    margin-left: 60px;
+
+.skill .img_skill{
+    margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
     max-width: 450px;
     display: block;
-    padding-left: 5vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
 }
-h5 {
+.skill h5 {
     display: inline-block;
+    text-align: center;
   
 }
-.box{
+.skill .box{
     display: inline-block;
     text-align: center;
 }
-.progress-bar {
+.skill .progress-bar {
     width: 100%;
     background-color: #ddd;
-  }
+}
   
-  .progress {
+.skill .progress {
     height: 20px;
     background-color: #4CAF50;
     width: 0%;
     transition: width 0.5s ease-in-out;
-  }
+}
+
 .contact {
 
 }
